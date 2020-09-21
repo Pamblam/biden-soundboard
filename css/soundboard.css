@@ -1,0 +1,12 @@
+
+body{
+	margin-top: 1em;
+}
+
+.play-btn{
+	width: 100%;
+	border-radius: 100%;
+	padding: 3em;
+	margin: 1em;
+}
+

@@ -6,6 +6,10 @@ body{
 
 }
 
+#soundboard-container {
+	padding: 10px;
+}
+
 .play-btn{
 	width: 100%;
 	background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);

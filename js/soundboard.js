@@ -18,7 +18,7 @@ new (class SoundBoard{
 			container.appendChild(col);
 			var button = document.createElement('button');
 			button.classList.add('btn', 'btn-primary', 'play-btn');
-			button.innerHTML = `<i class="far fa-play-circle"></i> ${clip.name}`;
+			button.innerHTML = `<div class="btn-text"><i class="far fa-play-circle"></i> ${clip.name}</div>`;
 			col.appendChild(button);
 			button.addEventListener('click', e=>{
 				e.preventDefault();

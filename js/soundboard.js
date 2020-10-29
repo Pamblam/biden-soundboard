@@ -29,17 +29,29 @@ new (class SoundBoard{
 	
 	async loadLibrary(){
 		const data = await fetch("./data/clips.json").then(data=>data.json());
-		const promises = data.map((clip, index)=>{
-			const audio = new Audio(`./audio/${clip.file}`);
-			data[index].play = ()=>audio.play();
-			return new Promise(done=>{
-				audio.addEventListener("canplaythrough", e=>done())
+		var promises = data.map((clip, index)=>{
+			return new Promise(async done=>{
+				var dataUri = await this.getAudioDataURL(`./audio/${clip.file}`);
+				const audio = new Audio(dataUri);
+				data[index].play = () => audio.play();
+				done();
 			});
 		});
 		await Promise.all(promises);
 		this.library = data;
 	}
 	
+	
+	getAudioDataURL(src){
+		return new Promise(async d=>{
+			var blob = await fetch(src).then(r=>r.blob());
+			var reader =  new FileReader();
+			reader.addEventListener("load", ()=>{
+				d(reader.result);
+			});
+			reader.readAsDataURL(blob);
+		});
+	}
 });
 
 

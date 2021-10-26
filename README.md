@@ -1,5 +1,5 @@
 
-## :hankey: Joe Biden Soundboard (Hacktoberfest 2020)
+## :hankey: Joe Biden Soundboard (Hacktoberfest 2021)
 
 :point_right: [Open the Soundboard](https://pamblam.github.io/biden-soundboard/) :point_left:
 

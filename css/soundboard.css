@@ -1,7 +1,8 @@
 body{
 	margin-top: 1em;
-	background: url('../images/background.jpg');
+	background: url('../images/2021-background.jpg');
 	background-size: contain;
+	background-attachment:fixed;
 }
 
 #soundboard-container {
@@ -31,7 +32,7 @@ body{
 	text-overflow: ellipsis;
  }
 
-h1 {
+h1 , h5{
 	text-align: center;
 	margin-bottom: 3rem;
 	color: white;

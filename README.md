@@ -1,5 +1,5 @@
 
-## :hankey: Joe Biden Soundboard (Hacktoberfest 2021)
+## :hankey: Joe Biden Soundboard (Hacktoberfest 2022)
 
 :point_right: [Open the Soundboard](https://pamblam.github.io/biden-soundboard/) :point_left:
 
@@ -12,7 +12,7 @@ Add clips, make it pretty, whatever. Easy Hacktoberfest pull requests.
 1. Biden clips only. 
 2. No music in the background. 
 3. Don't vandalize. I'm sure this will attract angry liberal Karens.
-4. Use clear, coherent clips. I mean, Biden is rarely coherent, but as long as you can understand the words he's saying.
+4. Use clear, coherent clips. I mean, Biden is rarely coherent, but as long as you can understand the words he's saying/attempting to say.
 
 #### How to contribute:
 
